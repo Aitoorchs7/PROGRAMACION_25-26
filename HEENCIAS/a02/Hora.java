@@ -1,4 +1,4 @@
-package a01;
+package a02;
 
 public class Hora {
     private int horas;
@@ -19,6 +19,12 @@ public class Hora {
             this.minutos = 0;
 
         }
+    }
+    public int getHoras(){
+        return this.horas;
+    }
+    public int getMinutos(){
+        return this.minutos;
     }
     boolean setHoras(int horas){
         if(horas >= 0 && horas <24){
@@ -43,3 +49,4 @@ public class Hora {
     }
     
 }
+

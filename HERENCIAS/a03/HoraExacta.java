@@ -36,7 +36,7 @@ public class HoraExacta extends Hora {
         HoraExacta otraHora = (HoraExacta) otro;
         boolean iguales;
 
-        if(this.getHoras() == otraHora.getHoras() && this.getMinutos() == otraHora.getMinutos()){// indicamos que sea igual en horas y minutos
+        if(this.getHoras() == otraHora.horas && this.getMinutos() == otraHora.minutos){// indicamos que sea igual en horas y minutos
             iguales = true;
         } else {
             iguales = false;

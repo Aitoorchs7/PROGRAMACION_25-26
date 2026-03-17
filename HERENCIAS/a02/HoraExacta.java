@@ -7,6 +7,7 @@ public class HoraExacta extends Hora {
         super(horas,minutos);
         this.segundos = segundos;
     }
+    //con el super.set minutos se podria reciclar mas el codigo
     boolean setSegundos(int segundos){
         if(segundos >= 0 && segundos < 60){
             this.segundos = segundos;

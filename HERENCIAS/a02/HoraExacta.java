@@ -1,7 +1,7 @@
 package a02;
 
 public class HoraExacta extends Hora {
-    int segundos;
+    private int segundos;
 
     public HoraExacta (int horas, int minutos,int segundos){
         super(horas,minutos);

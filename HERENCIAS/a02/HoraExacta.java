@@ -1,12 +1,13 @@
 package a02;
 
 public class HoraExacta extends Hora {
-    int segundos;
+    private int segundos;
 
     public HoraExacta (int horas, int minutos,int segundos){
         super(horas,minutos);
         this.segundos = segundos;
     }
+    //con el super.set minutos se podria reciclar mas el codigo
     boolean setSegundos(int segundos){
         if(segundos >= 0 && segundos < 60){
             this.segundos = segundos;

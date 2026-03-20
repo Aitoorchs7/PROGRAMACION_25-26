@@ -7,11 +7,12 @@ public class Televisor implements DispositivoConectado {
       public Televisor() {
         this.encendido = false;
     }
+    @Override
     public void encender(){
         encendido = true;
         System.out.println("Televisor prendido");
-
     }
+    @Override
     public void apagar(){
         encendido = false;
         System.out.println("Televisor apagado");

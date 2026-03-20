@@ -8,7 +8,7 @@ interface DispositivoConectado {
     default void conectar(){
         System.out.println("Conectando a la red " + red);
     }
-    default void mostrarInfo(){
+    static void mostrarInfo(){
         System.out.println("Red: " + red);
     }
     

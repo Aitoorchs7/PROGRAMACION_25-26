@@ -6,11 +6,12 @@ public class Bombilla implements DispositivoConectado{
     public Bombilla() {
         this.encendido = false;
     }
+    @Override
     public void encender(){
         encendido = true;
         System.out.println("Bombilla prendida");
-
     }
+    @Override
     public void apagar(){
         encendido = false;
         System.out.println("Bombilla apagada");

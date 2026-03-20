@@ -1,6 +1,6 @@
 package INTERFACES.a01;
 
-public interface DispositivoConectado {
+interface DispositivoConectado {
     static String red = "Wi-Fi 7";
     void encender();
     void apagar();

@@ -17,8 +17,8 @@ public class Televisor implements DispositivoConectado {
         encendido = false;
         System.out.println("Televisor apagado");
     }
-    @Override
     public void mostrarInfo() {
+        DispositivoConectado.mostrarInfo();
         System.out.println("Estado: "+ encendido);
         System.out.println("Red conectada: "+ conectado);
     } 

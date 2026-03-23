@@ -16,8 +16,8 @@ public class Bombilla implements DispositivoConectado{
         encendido = false;
         System.out.println("Bombilla apagada");
     }
-    @Override
     public void mostrarInfo() {
+        DispositivoConectado.mostrarInfo();
         System.out.println("Estado: "+ encendido);
     } 
 }

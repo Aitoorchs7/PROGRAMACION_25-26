@@ -1,4 +1,4 @@
-package a10.personal;
+package CLASES.a10.personal;
 import java.time.LocalDate;
 
 public class JefeEstacion {

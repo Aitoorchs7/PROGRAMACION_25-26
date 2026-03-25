@@ -1,4 +1,4 @@
-package a01;
+package TABLAS.a01;
 import java.util.Arrays;
 public class A01 {
 

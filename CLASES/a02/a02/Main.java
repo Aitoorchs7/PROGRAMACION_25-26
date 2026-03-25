@@ -1,4 +1,4 @@
-package a02;
+package CLASES.a02.a02;
 
 import java.util.Scanner;
 

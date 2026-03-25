@@ -1,4 +1,4 @@
-package a04;
+package TABLAS.a04;
 import java.util.Scanner;
 public class A04 {
 

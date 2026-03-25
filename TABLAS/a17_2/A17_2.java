@@ -1,4 +1,4 @@
-package a17_2;
+package TABLAS.a17_2;
 
 import java.util.Arrays;
 

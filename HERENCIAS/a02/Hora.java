@@ -1,4 +1,4 @@
-package a02;
+package HERENCIAS.a02;
 
 public class Hora {
     private int horas;

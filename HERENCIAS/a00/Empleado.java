@@ -1,4 +1,4 @@
-package a00;
+package HERENCIAS.a00;
 
 public class Empleado extends Persona {
     double salario;

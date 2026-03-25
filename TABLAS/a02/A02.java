@@ -1,4 +1,4 @@
-package a02;
+package TABLAS.a02;
 import java.util.Arrays;
 import java.util.Scanner;
 public class A02{

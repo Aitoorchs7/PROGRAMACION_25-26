@@ -1,7 +1,7 @@
-package a10;
+package CLASES.a10;
 
-import a10.personal.*;
-import a10.maquinaria.*;
+import CLASES.a10.personal.*;
+import CLASES.a10.maquinaria.*;
 
 public class Main {
     public static void main(String[] args) {

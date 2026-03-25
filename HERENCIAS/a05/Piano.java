@@ -1,6 +1,6 @@
-package a05;
+package HERENCIAS.a05;
 
-import a04.Instrumento;
+import HERENCIAS.a04.Instrumento;
 
 public class Piano extends Instrumento{
     

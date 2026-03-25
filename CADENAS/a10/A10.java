@@ -1,4 +1,4 @@
-package a10;
+package CADENAS.a10;
 
 import java.util.Scanner;
 

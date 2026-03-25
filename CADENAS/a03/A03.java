@@ -1,4 +1,4 @@
-package a03;
+package CADENAS.a03;
 import java.util.Scanner;
 public class A03 {
     public static void main(String[] args) {

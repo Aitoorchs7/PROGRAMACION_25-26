@@ -1,6 +1,6 @@
-package PROYECTO_INTEGRADOR.PROFESIONES;
-import PROYECTO_INTEGRADOR.HABILIDADES.Atacante;
-import PROYECTO_INTEGRADOR.BASES.Personajes;
+package proyecto_integrador.profesiones;
+import proyecto_integrador.bases.Personajes;
+import proyecto_integrador.habilidades.Atacante;
 
 public class Mago extends Personajes implements Atacante {
 

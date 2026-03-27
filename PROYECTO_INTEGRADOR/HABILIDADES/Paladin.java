@@ -1,5 +1,5 @@
-package PROYECTO_INTEGRADOR.HABILIDADES;
-import PROYECTO_INTEGRADOR.BASES.Personajes;
+package proyecto_integrador.habilidades;
+import proyecto_integrador.bases.Personajes;
 
 public abstract class Paladin extends Personajes implements Atacante,Curador{
 

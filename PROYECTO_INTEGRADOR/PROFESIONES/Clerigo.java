@@ -1,6 +1,6 @@
-package PROYECTO_INTEGRADOR.PROFESIONES;
-import PROYECTO_INTEGRADOR.BASES.Personajes;
-import PROYECTO_INTEGRADOR.HABILIDADES.Paladin;
+package proyecto_integrador.profesiones;
+import proyecto_integrador.bases.Personajes;
+import proyecto_integrador.habilidades.Paladin;
 
 public class Clerigo extends Paladin {
 

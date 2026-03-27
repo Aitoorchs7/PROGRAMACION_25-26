@@ -1,7 +1,7 @@
-package PROYECTO_INTEGRADOR;
+package proyecto_integrador;
 
-import PROYECTO_INTEGRADOR.BASES.Personajes;
-import PROYECTO_INTEGRADOR.PROFESIONES.*;
+import proyecto_integrador.bases.Personajes;
+import proyecto_integrador.profesiones.*;
 
 public class Main {
     public static void main(String[] args) {

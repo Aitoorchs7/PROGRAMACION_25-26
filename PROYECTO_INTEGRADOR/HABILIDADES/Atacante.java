@@ -1,6 +1,6 @@
-package PROYECTO_INTEGRADOR.HABILIDADES;
+package proyecto_integrador.habilidades;
 
-import PROYECTO_INTEGRADOR.BASES.Personajes;
+import proyecto_integrador.bases.Personajes;
 
 public interface Atacante{
     //metodo atacar a otro personaje

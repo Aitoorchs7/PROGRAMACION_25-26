@@ -1,4 +1,4 @@
-package a05;
+package BUCLES.a05;
 
 public class A05 {
 }

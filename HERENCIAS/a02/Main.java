@@ -1,4 +1,4 @@
-package a02;
+package HERENCIAS.a02;
 
 public class Main {
     public static void main(String[] args) {

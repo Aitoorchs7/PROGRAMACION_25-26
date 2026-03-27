@@ -1,5 +1,5 @@
 // Casado was here
-package a00;
+package HERENCIAS.a00;
 
 public class Persona {
     int edad;

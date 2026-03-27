@@ -1,4 +1,4 @@
-package a09;
+package CLASES.a09;
 
 public class Bombilla {
     private boolean estado;

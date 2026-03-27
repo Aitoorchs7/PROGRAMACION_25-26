@@ -1,4 +1,4 @@
-package a17;
+package TABLAS.a17;
 import java.util.Arrays;
 public class A17 {
     public static void main(String[] args) {

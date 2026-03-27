@@ -1,4 +1,4 @@
-package a10.maquinaria;
+package CLASES.a10.maquinaria;
 
 class Vagon { // Visibilidad de paquete
     int id;

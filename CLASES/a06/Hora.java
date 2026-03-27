@@ -1,5 +1,5 @@
 
-package a06;
+package CLASES.a06;
 
 public class Hora {
     private byte hora;

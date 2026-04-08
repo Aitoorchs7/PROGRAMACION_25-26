@@ -1,4 +1,4 @@
-package CADENAS.a15;
+package cadenas.a15;
 
 import java.util.Arrays;
 

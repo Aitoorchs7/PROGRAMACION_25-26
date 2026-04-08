@@ -1,4 +1,4 @@
-package CADENAS.a09;
+package cadenas.a09;
 
 public class A09 {
 }

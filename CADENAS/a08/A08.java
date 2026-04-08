@@ -1,4 +1,4 @@
-package CADENAS.a08;
+package cadenas.a08;
 
 import java.util.Scanner;
 

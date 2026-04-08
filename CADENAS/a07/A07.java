@@ -1,4 +1,4 @@
-package CADENAS.a07;
+package cadenas.a07;
 import java.util.Scanner;
 public class A07 {
     public static void main(String[] args) {

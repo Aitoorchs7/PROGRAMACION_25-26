@@ -1,4 +1,4 @@
-package CADENAS.a14;
+package cadenas.a14;
 
 import java.util.Scanner;
 

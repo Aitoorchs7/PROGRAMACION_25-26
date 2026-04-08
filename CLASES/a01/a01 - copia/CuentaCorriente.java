@@ -1,4 +1,4 @@
-package a01;
+package clases.a01_copia.a01;
 
 public class CuentaCorriente {
     String nombre;

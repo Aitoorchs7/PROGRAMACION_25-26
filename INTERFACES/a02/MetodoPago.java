@@ -1,4 +1,4 @@
-package INTERFACES.a02;
+package interfaces.a02;
 
 interface MetodoPago {
     public final double IVA = 0.21;

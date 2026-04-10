@@ -1,4 +1,4 @@
-package HERENCIAS.a04;
+package herencias.a04;
 
 public abstract class Instrumento {
     private Notas[] notas = new Notas[LONGITUD];

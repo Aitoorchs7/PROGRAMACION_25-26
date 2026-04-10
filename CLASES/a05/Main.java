@@ -1,4 +1,4 @@
-package CLASES.a05;
+package clases.a05;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package CLASES.a07;
+package clases.a07;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

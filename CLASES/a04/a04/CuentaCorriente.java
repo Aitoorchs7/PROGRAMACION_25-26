@@ -1,4 +1,4 @@
-package CLASES.a04.a04;
+package clases.a04.a04;
 /* * Clase que representa una cuenta corriente bancaria.
  * Incluye gestión de saldo, nombre del titular y DNI con diferentes niveles de visibilidad.
  */

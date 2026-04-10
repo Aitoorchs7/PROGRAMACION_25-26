@@ -1,4 +1,4 @@
-package INTERFACES.a04;
+package interfaces.a04;
 
 public interface Imprimible{
     //metodo abstracto

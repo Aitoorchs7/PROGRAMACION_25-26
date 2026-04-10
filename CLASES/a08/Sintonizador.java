@@ -1,5 +1,5 @@
 
-package CLASES.a08;
+package clases.a08;
 
 public class Sintonizador {
     

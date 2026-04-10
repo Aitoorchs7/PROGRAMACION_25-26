@@ -1,5 +1,5 @@
 
-package CLASES.a06;
+package clases.a06;
 
 import java.util.Scanner;
 

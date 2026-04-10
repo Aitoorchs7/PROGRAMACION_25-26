@@ -1,4 +1,4 @@
-package INTERFACES.a04;
+package interfaces.a04;
 
 public interface Multifuncion extends Imprimible, Escaneable {
     //metodo abstracto que incluye ambos comportamientos 

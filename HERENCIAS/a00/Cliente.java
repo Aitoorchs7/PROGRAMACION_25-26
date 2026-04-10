@@ -1,4 +1,4 @@
-package HERENCIAS.a00;
+package herencias.a00;
 
 public class Cliente extends Persona {
     double presupuesto;

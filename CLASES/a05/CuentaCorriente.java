@@ -1,4 +1,4 @@
-package CLASES.a05;
+package clases.a05;
 
 public class CuentaCorriente {
     // Atributos con visibilidad configurada según Actividad 3

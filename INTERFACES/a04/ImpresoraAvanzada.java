@@ -1,4 +1,4 @@
-package INTERFACES.a04;
+package interfaces.a04;
 
 public class ImpresoraAvanzada implements Multifuncion{
     @Override 

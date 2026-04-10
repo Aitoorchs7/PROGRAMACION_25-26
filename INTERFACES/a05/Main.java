@@ -1,6 +1,6 @@
-package INTERFACES.a05;
+package interfaces.a05;
 
-import INTERFACES.a03.Notificable;
+import interfaces.a03.Notificable;
 
 public class Main {
     public static void main(String[] args) {

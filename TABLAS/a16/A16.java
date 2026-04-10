@@ -1,4 +1,4 @@
-package TABLAS.a16;
+package tablas.a16;
 import java.util.Scanner;
 import java.util.Arrays;
 

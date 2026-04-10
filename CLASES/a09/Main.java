@@ -1,4 +1,4 @@
-package CLASES.a09;
+package clases.a09;
 
 public class Main {
     public static void main (String[]args){

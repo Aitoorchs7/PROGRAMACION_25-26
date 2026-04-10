@@ -1,4 +1,4 @@
-package CLASES.a08;
+package clases.a08;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package CLASES.a03.a03;
+package clases.a03.a03;
 
 
 public class Main {

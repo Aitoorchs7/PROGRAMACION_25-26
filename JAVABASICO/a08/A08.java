@@ -1,4 +1,4 @@
-package JAVABASICO.a08;
+package javabasico.a08;
 
 public class A08 {
 }

@@ -1,4 +1,4 @@
-package CLASES.a05;
+package clases.a05;
 
 public class Gestor {
     public String nombre;  

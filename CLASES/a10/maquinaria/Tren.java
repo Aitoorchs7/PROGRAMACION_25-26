@@ -1,5 +1,5 @@
-package CLASES.a10.maquinaria;
-import CLASES.a10.personal.Maquinista;
+package clases.a10.maquinaria;
+import clases.a10.personal.Maquinista;
 
 public class Tren {
     public Locomotora locomotora;

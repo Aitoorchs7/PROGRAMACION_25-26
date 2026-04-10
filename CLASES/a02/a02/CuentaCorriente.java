@@ -1,4 +1,4 @@
-package CLASES.a02.a02;
+package clases.a02.a02;
 
 public class CuentaCorriente {
     //definimos los atributos

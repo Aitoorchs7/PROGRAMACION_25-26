@@ -1,4 +1,4 @@
-package INTERFACES.a01;
+package interfaces.a01;
 
 interface DispositivoConectado {
     static String red = "Wi-Fi 7";

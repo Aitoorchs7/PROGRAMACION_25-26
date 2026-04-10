@@ -1,4 +1,4 @@
-package INTERFACES.a01;
+package interfaces.a01;
 
 public class Televisor implements DispositivoConectado {
     private boolean encendido;

@@ -1,5 +1,5 @@
 
-package TABLAS.a05;
+package tablas.a05;
 import java.util.Arrays;
 import java.util.Scanner;
 public class A05 {

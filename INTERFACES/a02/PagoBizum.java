@@ -1,4 +1,4 @@
-package INTERFACES.a02;
+package interfaces.a02;
 
 class PagoBizum implements MetodoPago {
     @Override

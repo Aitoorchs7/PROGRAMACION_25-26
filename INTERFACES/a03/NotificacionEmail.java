@@ -1,4 +1,4 @@
-package INTERFACES.a03;
+package interfaces.a03;
 
 class NotificacionEmail implements Notificable {
 

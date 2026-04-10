@@ -1,4 +1,4 @@
-package CLASES.a10.personal;
+package clases.a10.personal;
 
 public class Mecanico {
     public String nombre;

@@ -1,4 +1,4 @@
-package INTERFACES.a03;
+package interfaces.a03;
 
 public class Main {
     public static void main (String[]args){

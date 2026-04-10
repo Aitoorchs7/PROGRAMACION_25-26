@@ -1,4 +1,4 @@
-package INTERFACES.a01;
+package interfaces.a01;
 
 public class Bombilla implements DispositivoConectado{
     private boolean encendido;

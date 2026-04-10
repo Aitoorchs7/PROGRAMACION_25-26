@@ -1,5 +1,5 @@
-package CLASES.a10.maquinaria;
-import CLASES.a10.personal.Mecanico;
+package clases.a10.maquinaria;
+import clases.a10.personal.Mecanico;
 
 public class Locomotora {
     public String matricula;

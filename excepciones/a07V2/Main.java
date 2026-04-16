@@ -10,12 +10,12 @@ public class Main {
     public static void main(String [] args){
 
         try{
-        fw = new FileWriter(RUTA,false);
+        fw = new FileWriter(RUTA,true);
         bw = new BufferedWriter(fw);
         String frase1 = "Linea escrita con FileWriter";
-        bw.newLine();
         String frase2 = "Linea escrita con BufferedWriter";
 
+        bw.newLine();
         escribirFichero(fw,frase1);
         escribirFichero(bw,frase2);
 

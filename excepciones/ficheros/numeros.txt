@@ -1,1 +1,2 @@
-
+Linea escrita con FileWriter
+Linea escrita con BufferedWriter

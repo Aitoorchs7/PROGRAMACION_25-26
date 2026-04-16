@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
 
-    static final String RUTA = "excepciones\\ficheros\\numeros.txt";
+    static final String RUTA = "C:\\Users\\ALUMNO\\Desktop\\Proyectos_java\\excepciones\\ficheros\\numeros.txt";
 
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class Main {
             String frase1 = "En un lugar de la Mancha";
             char[] caracteres = frase1.toCharArray();
             for (char caracter : caracteres) {
-                fw.write((int) caracter); // Usamos fw directamente
+                fw.write(caracter); // Usamos fw directamente
             }
 
            

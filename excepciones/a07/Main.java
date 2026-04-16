@@ -5,33 +5,35 @@ import java.io.*;
 public class Main {
 
     static final String RUTA = "excepciones\\ficheros\\numeros.txt";
-    static BufferedWriter bw = null;
-    public static void main(String[]args){
-        // System.out.println(System.getProperty("user.dir"));
-        //para saber donde estamos y en vez de poner la ruta completa poner la ruta relativa
+
+    public static void main(String[] args) {
+
+        FileWriter fw = null;
+        BufferedWriter bw = null;
 
         try {
-            bw = new BufferedWriter(new FileWriter(RUTA,false));
-            //con el append en false eliminamos lo que hay dentro del archivo y añadimos texto
+            fw = new FileWriter(RUTA, false); // false = sobreescribir
+            bw = new BufferedWriter(fw);
+
+            // Primera línea: escribimos char a char usando FileWriter directamente
             String frase1 = "En un lugar de la Mancha";
-            char[] caracteres = frase1.toCharArray();
-            for (char caracter : caracteres) {
-                bw.write((int) caracter);
+            frase1 = frase1.toCharArray();
+            for (char caracter : frase1) {
+                fw.write((int) caracter); // Usamos fw directamente
             }
-            /** 
-            char[] frase1 = {'E', 'n', ' ', 'u', 'n', ' ', 'l', 'u', 'g', 'a', 'r', ' ', 'd', 'e', ' ', 'l', 'a', ' ', 'M', 'a', 'n', 'c', 'h', 'a'};
-            bw.flush();
-            for(char caracter : frase1){
-                bw.write((int) caracter);
-            }
-                Tambien se podria hacer asi
-            */
- 
-            bw.newLine();
+
+            // IMPORTANTE: hay que vaciar el buffer de bw antes de cambiar de método
+            // Como hemos escrito con fw directamente, aquí simplemente añadimos el salto
+            fw.write(System.lineSeparator()); // Salto de línea también con fw
+
+        
             bw.write("de cuyo nombre no quiero acordarme");
+            bw.newLine();
+
         } catch (IOException e) {
             System.out.println("Error al escribir en el archivo: " + e.getMessage());
         } finally {
+            // Solo cerramos bw, que internamente cierra también fw
             if (bw != null) {
                 try {
                     bw.close();
@@ -42,6 +44,3 @@ public class Main {
         }
     }
 }
-    
-
-

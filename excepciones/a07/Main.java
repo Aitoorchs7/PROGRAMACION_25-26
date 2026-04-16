@@ -6,19 +6,17 @@ public class Main {
 
     static final String RUTA = "excepciones\\ficheros\\numeros.txt";
     static BufferedWriter bw = null;
-    static FileWriter fw = null;
     public static void main(String[]args){
         // System.out.println(System.getProperty("user.dir"));
         //para saber donde estamos y en vez de poner la ruta completa poner la ruta relativa
 
         try {
-            fw = new FileWriter(RUTA,false);
-            bw = new BufferedWriter(fw);
+            bw = new BufferedWriter(new FileWriter(RUTA,false));
             //con el append en false eliminamos lo que hay dentro del archivo y añadimos texto
             String frase1 = "En un lugar de la Mancha";
             char[] caracteres = frase1.toCharArray();
             for (char caracter : caracteres) {
-                fw.write((int) caracter);
+                bw.write((int) caracter);
             }
             /** 
             char[] frase1 = {'E', 'n', ' ', 'u', 'n', ' ', 'l', 'u', 'g', 'a', 'r', ' ', 'd', 'e', ' ', 'l', 'a', ' ', 'M', 'a', 'n', 'c', 'h', 'a'};

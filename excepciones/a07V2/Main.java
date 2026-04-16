@@ -40,12 +40,13 @@ public class Main {
 
     public static void escribirFichero(FileWriter fw, String frase){
         try{
+            BufferedWriter bw = new BufferedWriter(fw);
             char[] caracteres = frase.toCharArray();
             for (char caracter : caracteres) {
                 fw.write((int) caracter);
             }
-            fw.write("\n");
-                // asi conseguimos el salto de linea con el FileWritter
+            bw.newLine();
+                // asi conseguimos el salto de linea en el FileWritter
                 fw.flush();
         }catch(IOException e){
             System.out.println("Error al escribir en el archivo: " + e.getMessage());

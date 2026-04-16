@@ -17,14 +17,15 @@ public class Main {
 
             // Primera línea: escribimos char a char usando FileWriter directamente
             String frase1 = "En un lugar de la Mancha";
-            frase1 = frase1.toCharArray();
-            for (char caracter : frase1) {
+            char[] caracteres = frase1.toCharArray();
+            for (char caracter : caracteres) {
                 fw.write((int) caracter); // Usamos fw directamente
             }
 
-            // IMPORTANTE: hay que vaciar el buffer de bw antes de cambiar de método
-            // Como hemos escrito con fw directamente, aquí simplemente añadimos el salto
+           
+            
             fw.write(System.lineSeparator()); // Salto de línea también con fw
+            fw.flush();
 
         
             bw.write("de cuyo nombre no quiero acordarme");

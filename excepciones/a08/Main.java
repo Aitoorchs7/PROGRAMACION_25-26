@@ -17,9 +17,8 @@ public class Main {
 
             try (BufferedReader br = new BufferedReader(new FileReader(RUTA + NOMBREFICHERO))) {
                 int i = 0;
-                String linea = br.readLine();
-                while (linea != null) {
-                    linea = br.readLine();
+                String linea;
+                while ((linea = br.readLine()) != null) {
                     texto[i] = linea;
                     i++;
                 }
@@ -30,10 +29,13 @@ public class Main {
                         bw.newLine();
                     }
                 }
+
+            } catch (IOException e) {
+                System.out.println("Error al leer o escribir el fichero");
             }
 
         } catch (IOException e) {
-            System.out.println("Error al leer o escribir el fichero");
+            System.out.println("Error con el Scanner");
         }
     }
 }

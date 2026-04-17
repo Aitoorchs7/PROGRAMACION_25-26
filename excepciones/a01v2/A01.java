@@ -1,23 +1,29 @@
 package excepciones.a01v2;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class A01 {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ingrese un número: ");
-        int a = sc.nextInt();
-        metodo2(a);
-        sc.close(); 
+        Integer n = null;
+
+        while (n == null) {
+            try {
+                n = leerNumero(sc);
+            } catch (InputMismatchException e) {
+                System.out.println("Error: Debes introducir un número entero.");
+                sc.next(); 
+            }
+        }
+        
+        System.out.println("El número ingresado es: " + n);
+        sc.close();
     }
 
-    public static int metodo1(int a) throws Exception {
-        
-        
+    static Integer leerNumero(Scanner sc) throws InputMismatchException {
+        System.out.print("Ingrese un número: ");
+        return sc.nextInt();
     }
-    public static int metodo2(int a) {
-        return metodo1(a);
-        
-    }
-    
 }

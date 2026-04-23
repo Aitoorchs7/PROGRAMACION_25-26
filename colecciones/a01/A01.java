@@ -8,8 +8,9 @@ public class A01 {
         String[] s = {"hola", "mundo"};
         Integer[] i = {1, 2, 3};
 
-        s = guardar("adios", s);
-        i = guardar(4, i);
+        // llamada al metodo estatico guardar
+        s = A01.guardar("adios", s);
+        i = A01.guardar(4, i);
     
         System.out.println(Arrays.toString(s));
         System.out.println(Arrays.toString(i));

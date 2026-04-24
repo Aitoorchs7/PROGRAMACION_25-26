@@ -19,6 +19,7 @@ public class A01 {
             System.out.println("Error: Debes introducir un número entero.");
             sc.next();
         } 
+        sc.close();
     }
     return resultado;
     }

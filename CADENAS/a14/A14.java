@@ -22,5 +22,8 @@ public class A14 {
 
         System.out.println(frase);
         System.out.println("En esta frase hay "+contador+" espacios");
+
+        sc.close();
     }
+
 }

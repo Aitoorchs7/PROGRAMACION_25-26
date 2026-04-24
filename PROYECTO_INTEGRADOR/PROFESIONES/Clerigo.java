@@ -1,4 +1,4 @@
-package proyecto_integrador.PROFESIONES;
+package proyecto_integrador.profesiones;
 import proyecto_integrador.bases.Personajes;
 import proyecto_integrador.habilidades.Paladin;
 

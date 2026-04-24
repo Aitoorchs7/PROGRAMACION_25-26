@@ -1,4 +1,4 @@
-package proyecto_integrador.HABILIDADES;
+package proyecto_integrador.habilidades;
 
 import proyecto_integrador.bases.Personajes;
 

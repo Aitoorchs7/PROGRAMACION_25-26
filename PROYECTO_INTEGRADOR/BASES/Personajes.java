@@ -1,4 +1,4 @@
-package proyecto_integrador.BASES;
+package proyecto_integrador.bases;
 
 public abstract class Personajes {
 

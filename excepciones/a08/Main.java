@@ -34,8 +34,6 @@ public class Main {
                 System.out.println("Error al leer o escribir el fichero");
             }
 
-        } catch (IOException e) {
-            System.out.println("Error con el Scanner");
         }
     }
 }

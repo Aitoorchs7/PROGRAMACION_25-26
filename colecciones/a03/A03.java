@@ -1,17 +1,16 @@
 package colecciones.a03;
 
-
 import java.util.Collection;
 import java.util.ArrayList;
 
 public class A03 {
     public static void main(String[] args) {
         Collection<Integer> listaNumeros = new ArrayList<>();
-        int numero;
+        Integer numero;
         Collection<Integer> listaNumeros2 = new ArrayList<>();
 
     for(int i = 0; i < 20; i++){
-        numero = (int)(Math.random()*10);
+        numero = (int)(Math.random()*10 + 1);
         if(numero <= 10 && numero >= 0){
             listaNumeros.add(numero);
         }
@@ -27,10 +26,6 @@ public class A03 {
     System.out.println(listaNumeros);
     System.out.println("Lista sin repetidos");
     System.out.println(listaNumeros2);
-
-
-
-
     }
     
 }

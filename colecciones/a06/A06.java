@@ -1,10 +1,8 @@
 package colecciones.a06;
 
-import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
-import java.util.Arrays;
 
 public class A06 {
     public static void main (String[]args){
